@@ -1,6 +1,7 @@
 headers = {
     "Content-Type": "application/json"
 }
+
 user_body = {
     "firstName": "Omar",
     "phone": "+11234567890",
@@ -10,10 +11,8 @@ user_body = {
 Autorization = {
     "authToken":'5d47749d-13da-4256-9eb0-57ab12fbca80'
 }
-def get_kit_body(name):
-    reurn kit_bodies[name].copy()
 
-ki_bodies = {
+kit_bodies = {
     "one_characer": {"name": "a"},
     "maximus_characters": {"name": ("AbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdAbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabC")},
     "empty_sring": {"name": ""},
